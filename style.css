@@ -98,9 +98,19 @@ body {
     grid-template-columns: 5fr 4fr;
 }
 
+.contacts-section {
+    height: 40em;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .video-section {}
 
 .footer {
-    background-color: black;
+    align-items: center;
+    padding: 1em;
+    background-color: #333;
     color: white;
 }
