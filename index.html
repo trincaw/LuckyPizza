@@ -25,16 +25,35 @@
             /* Text color against background */
         }
 
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            /* Align items horizontally in the center */
+            align-items: center;
+            padding: 1.5%;
+        }
+
+        .flex-container>a,
+        .flex-container>h1 {
+            padding: 10px 20px;
+            margin: 0 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+
         nav {
             text-align: center;
-            padding: 60px 0;
+            padding: 2% 0;
         }
 
         nav a {
-            color: rgb(236, 194, 149);
+
             text-decoration: none;
-            margin: 0 40px;
+            margin: 0 3%;
+
             font-weight: bold;
+            color: rgb(236, 194, 149);
             font-size: 25px;
             font-family: 'Mulish', Arial, sans-serif;
         }
@@ -43,44 +62,61 @@
             text-decoration: underline;
         }
 
+        .title-container {
+            border-right: 444px solid #ccc;
+            font-weight: bold;
+            color: rgb(236, 194, 149);
+            font-size: 25px;
+            font-family: 'Mulish', Arial, sans-serif;
+        }
+
         .logo-container {
             text-align: center;
-            margin-top: 50px;
+            margin: 1.5% 0;
         }
 
         .logo {
-            max-width: 100%;
+            max-width: 28%;
             height: auto;
         }
 
         .contact-icons {
             text-align: center;
-            margin-top: 50px;
-            margin-bottom: 30px;
+            margin-top: 5%;
+            margin-bottom: 2%;
         }
 
         .contact-icons img {
-            width: 32px;
-            height: 32px;
-            margin: 0 10px;
+            width: 3%;
+            height: 3%;
+            margin: 1% 0.5%;
         }
     </style>
 </head>
 
 <body>
-    <nav>
-        <a href="#">About</a>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-    </nav>
+    <div class="flex-container">
+        <h1 class="title-container">
+            Lucky Pizza
+        </h1>
+        <nav class="flex-container">
+
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+        </nav>
+    </div>
     <div class="logo-container">
         <img class="logo" src="logo.jpg" alt="Logo">
     </div>
     <div class="contact-icons">
         <img src="mail.svg" alt="Mail">
         <img src="mail.svg" alt="Phone">
+        <img src="mail.svg" alt="Phone">
+        <img src="mail.svg" alt="Phone">
+        <img src="mail.svg" alt="Phone">
+        <img src="mail.svg" alt="Phone">
+        <img src="mail.svg" alt="Phone">
         <!-- Add more contact icons as needed -->
     </div>
 </body>
-
-</html>
