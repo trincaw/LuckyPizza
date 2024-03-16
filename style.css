@@ -1,116 +1,111 @@
 @font-face {
-    font-family: CrossaintOne;
-    src: url("CroissantOne-Regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: Iris;
-    src: url("IrisUPC\ Regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: Mulish;
-    src: url("Mulish.ttf") format("truetype");
-}
-
-.menu {
-    position: relative;
-    background-image: url('menu.png');
-    background-size: cover;
-    width: 10em;
-    height: 10em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: rgb(35, 35, 35);
-
-}
-
-.title {
-    text-align: center;
-    color: rgb(35, 35, 35);
-    background-size: cover;
-
-    letter-spacing: .1em;
-    word-spacing: .2em;
-}
-
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    font-family: 'Mulish';
+    src: url('./Mulish.ttf') format('truetype');
+    /* Update './Mulish.ttf' with the correct path to your font file */
 }
 
 body {
     margin: 0;
-    font-family: Iris;
 }
 
-.logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 10em;
-    background-color: whitesmoke;
-    opacity: 0.5;
-    z-index: 10;
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
 }
 
-.story-image-container {
-    border-radius: 1em;
-    overflow: hidden;
-    height: 25em;
-    width: 25em;
-    margin-right: auto;
+.flex-container>a,
+.flex-container>h1 {
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 20px;
 }
 
-.story-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: all ease-out .5s;
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    padding: 3em;
 }
 
-.story-image:hover {
-    transform: scale(1.1);
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(236, 194, 149);
 }
 
-.main-section {
+nav a:hover {
+    text-decoration: underline;
+}
+
+.page-container {
+    color: rgb(236, 194, 149);
     height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('legno.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Mulish', Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container {
+    position: absolute;
+    left: 3em;
+    top: 2em;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.logo-container {
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-    background-attachment: fixed;
-    background-image: url('background.webp');
-    background-color: rgb(35, 35, 35);
-    background-size: cover;
+    gap: 2em;
+    flex-grow: 1;
 }
 
-.story-section {
-    height: 40em;
-    background-color: #eae6db;
-    display: grid;
-    grid-template-columns: 5fr 4fr;
+.logo {
+    width: 24em;
+    height: auto;
 }
 
-.contacts-section {
-    height: 40em;
-    background-color: lightgray;
+.contacts-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 3em;
+    margin: 2em;
 }
 
-.video-section {}
+.contact-icon {
+    width: 2.6em;
+    height: 2.6em;
+}
 
-.footer {
-    align-items: center;
-    padding: 1em;
-    background-color: #333;
-    color: white;
+.first-pizza {
+    position: absolute;
+    top: 20%;
+    left: -18%;
+    height: 70%;
+}
+
+.second-pizza {
+    position: absolute;
+    height: 70%;
+    right: -15%;
+    top: -15%;
 }
