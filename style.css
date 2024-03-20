@@ -44,6 +44,8 @@ nav a:hover {
 }
 
 .page-container {
+    position: relative;
+    overflow: hidden;
     color: rgb(236, 194, 149);
     height: 100vh;
     margin: 0;
@@ -109,6 +111,7 @@ nav a:hover {
     right: -15%;
     top: -15%;
 }
+
 /* Mobile Styles */
 
 @media only screen and (max-width: 600px) {
@@ -123,18 +126,24 @@ nav a:hover {
         text-align: center;
         padding: 2em;
     }
+
     nav a {
-        padding: 10px 0px; /* Increased padding for more spacing */
-        margin: 0 10px; /* Increased margin for more spacing */
+        padding: 10px 0px;
+        /* Increased padding for more spacing */
+        margin: 0 10px;
+        /* Increased margin for more spacing */
         font-size: 18px;
-        text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 
     }
 
-    .flex-container > h1 {
-        padding: 20px; /* Increased padding for more spacing */
-        margin: 0 10px; /* Increased margin for more spacing */
-        font-size: 24px; /* Increased font size */
+    .flex-container>h1 {
+        padding: 20px;
+        /* Increased padding for more spacing */
+        margin: 0 10px;
+        /* Increased margin for more spacing */
+        font-size: 24px;
+        /* Increased font size */
     }
 
     .flex-container>a {
@@ -144,7 +153,8 @@ nav a:hover {
     }
 
     .logo {
-        width: 200px; /* Adjust size for smaller screens */
+        width: 200px;
+        /* Adjust size for smaller screens */
     }
 
     .contacts-container {
@@ -156,22 +166,31 @@ nav a:hover {
     }
 
     .contact-icon {
-        width: 30px; /* Adjusted size for smaller screens */
-        height: 30px; /* Adjusted size for smaller screens */
-        margin: 5px; /* Increased margin for more spacing */
+        width: 30px;
+        /* Adjusted size for smaller screens */
+        height: 30px;
+        /* Adjusted size for smaller screens */
+        margin: 5px;
+        /* Increased margin for more spacing */
     }
 
     .first-pizza {
         position: absolute;
-        top: 60%; /* Adjust the top position */
-        left: -30%; /* Adjust the left position */
-        height: 30%; /* Adjust the height */
+        top: 60%;
+        /* Adjust the top position */
+        left: -30%;
+        /* Adjust the left position */
+        height: 30%;
+        /* Adjust the height */
     }
 
     .second-pizza {
         position: absolute;
-        height: 30%; /* Adjust the height */
-        right: -30%; /* Adjust the right position */
-        top: 15%; /* Adjust the top position */
+        height: 30%;
+        /* Adjust the height */
+        right: -30%;
+        /* Adjust the right position */
+        top: 15%;
+        /* Adjust the top position */
     }
 }
