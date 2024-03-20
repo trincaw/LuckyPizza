@@ -127,6 +127,8 @@ nav a:hover {
         padding: 10px 0px; /* Increased padding for more spacing */
         margin: 0 10px; /* Increased margin for more spacing */
         font-size: 18px;
+        text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+
     }
 
     .flex-container > h1 {
@@ -162,7 +164,7 @@ nav a:hover {
     .first-pizza {
         position: absolute;
         top: 60%; /* Adjust the top position */
-        left: -35%; /* Adjust the left position */
+        left: -30%; /* Adjust the left position */
         height: 30%; /* Adjust the height */
     }
 
