@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+
 }
 
 .flex-container {
@@ -21,6 +22,7 @@ body {
     margin: 0 10px;
     text-align: center;
     font-size: 20px;
+    
 }
 
 nav {
@@ -37,6 +39,8 @@ a {
     font-weight: bold;
     font-size: 25px;
     color: rgb(236, 194, 149);
+    text-shadow: 0 0 0px #000000, 0 0 5px #000000;
+
 }
 
 nav a:hover {
@@ -67,6 +71,7 @@ nav a:hover {
     top: 2em;
     font-weight: bold;
     margin: 0;
+    text-shadow: 0 0 0px #000000, 0 0 5px #000000;
 
 }
 
@@ -80,7 +85,7 @@ nav a:hover {
     flex-grow: 1;
 }
 
-.logo {
+.logchiedio {
     width: 24em;
     height: auto;
 }
@@ -129,21 +134,18 @@ nav a:hover {
 
     nav a {
         padding: 10px 0px;
-        /* Increased padding for more spacing */
         margin: 0 10px;
-        /* Increased margin for more spacing */
         font-size: 18px;
-        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        text-shadow: 0 0 0px #000000, 0 0 5px #000000;
 
     }
-
+    nav h1 {
+        text-shadow: 0 0 0px #000000, 0 0 5px #000000;
+    }
     .flex-container>h1 {
         padding: 20px;
-        /* Increased padding for more spacing */
         margin: 0 10px;
-        /* Increased margin for more spacing */
         font-size: 24px;
-        /* Increased font size */
     }
 
     .flex-container>a {
@@ -154,7 +156,6 @@ nav a:hover {
 
     .logo {
         width: 200px;
-        /* Adjust size for smaller screens */
     }
 
     .contacts-container {
@@ -166,31 +167,22 @@ nav a:hover {
     }
 
     .contact-icon {
-        width: 30px;
-        /* Adjusted size for smaller screens */
-        height: 30px;
-        /* Adjusted size for smaller screens */
+        width: 1em;
+        height: 1em;
         margin: 5px;
-        /* Increased margin for more spacing */
     }
 
     .first-pizza {
         position: absolute;
         top: 60%;
-        /* Adjust the top position */
         left: -30%;
-        /* Adjust the left position */
         height: 30%;
-        /* Adjust the height */
     }
 
     .second-pizza {
         position: absolute;
         height: 30%;
-        /* Adjust the height */
         right: -30%;
-        /* Adjust the right position */
         top: 15%;
-        /* Adjust the top position */
     }
 }
