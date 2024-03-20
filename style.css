@@ -121,11 +121,21 @@ nav a:hover {
     nav {
         display: block;
         text-align: center;
-        padding: 1em;
+        padding: 2em;
+    }
+    nav a {
+        padding: 10px 0px; /* Increased padding for more spacing */
+        margin: 0 10px; /* Increased margin for more spacing */
+        font-size: 18px;
     }
 
-    .flex-container>a,
-    .flex-container>h1 {
+    .flex-container > h1 {
+        padding: 20px; /* Increased padding for more spacing */
+        margin: 0 10px; /* Increased margin for more spacing */
+        font-size: 24px; /* Increased font size */
+    }
+
+    .flex-container>a {
         padding: 10px;
         margin: 0 5px;
         font-size: 18px;
@@ -144,13 +154,14 @@ nav a:hover {
     }
 
     .contact-icon {
-        width: 40px; /* Adjust size for smaller screens */
-        height: 40px; /* Adjust size for smaller screens */
+        width: 30px; /* Adjusted size for smaller screens */
+        height: 30px; /* Adjusted size for smaller screens */
+        margin: 5px; /* Increased margin for more spacing */
     }
 
     .first-pizza {
         position: absolute;
-        top: 55%; /* Adjust the top position */
+        top: 60%; /* Adjust the top position */
         left: -35%; /* Adjust the left position */
         height: 30%; /* Adjust the height */
     }
