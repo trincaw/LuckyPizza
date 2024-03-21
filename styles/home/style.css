@@ -53,7 +53,7 @@ nav a:hover {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('./../../images/legno.webp');
+    background-image: url('./../../images/backgrounds/legno.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
