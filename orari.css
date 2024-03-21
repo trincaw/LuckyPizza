@@ -9,22 +9,6 @@ body {
 
 }
 
-.flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5%;
-}
-
-.flex-container>a,
-.flex-container>h1 {
-    padding: 10px 20px;
-    margin: 0 10px;
-    text-align: center;
-    font-size: 20px;
-
-}
-
 nav {
     text-align: center;
     display: flex;
@@ -40,7 +24,6 @@ a {
     font-size: 25px;
     color: rgb(236, 194, 149);
     text-shadow: 0 0 0px #000000, 0 0 5px #000000;
-
 }
 
 nav a:hover {
@@ -54,7 +37,7 @@ nav a:hover {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('legno.webp');
+    background-image: url('bg-orari.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,7 +58,10 @@ nav a:hover {
 
 }
 
-.logo-container {
+.orari-container {
+    background-color: red;
+    max-width: 600px;
+    margin: auto;
     text-align: center;
     display: flex;
     align-items: center;
@@ -85,9 +71,13 @@ nav a:hover {
     flex-grow: 1;
 }
 
-.logchiedio {
-    width: 24em;
-    height: auto;
+.logo-container {}
+
+.time-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .contacts-container {
