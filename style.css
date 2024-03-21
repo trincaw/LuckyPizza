@@ -176,15 +176,19 @@ nav a:hover {
 
     .first-pizza {
         position: absolute;
-        top: 60%;
-        left: -30%;
+        top: 55%;
+        left: -35%;
         height: 30%;
+        width: auto;
+        max-height: 25%;
     }
 
     .second-pizza {
         position: absolute;
         height: 30%;
+        width: auto;
         right: -30%;
         top: 15%;
+        max-height: 25%;
     }
 }
