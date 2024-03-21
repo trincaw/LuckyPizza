@@ -1,11 +1,26 @@
 @font-face {
     font-family: 'Mulish';
-    src: url('./Mulish.ttf') format('truetype');
-    /* Update './Mulish.ttf' with the correct path to your font file */
+    src: url('./../../fonts/Mulish.ttf') format('truetype');
 }
 
 body {
     margin: 0;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+}
+
+.flex-container>a,
+.flex-container>h1 {
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 20px;
 
 }
 
@@ -24,6 +39,7 @@ a {
     font-size: 25px;
     color: rgb(236, 194, 149);
     text-shadow: 0 0 0px #000000, 0 0 5px #000000;
+
 }
 
 nav a:hover {
@@ -37,7 +53,7 @@ nav a:hover {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('bg-orari.png');
+    background-image: url('./../../images/legno.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,10 +74,7 @@ nav a:hover {
 
 }
 
-.orari-container {
-    background-color: red;
-    max-width: 600px;
-    margin: auto;
+.logo-container {
     text-align: center;
     display: flex;
     align-items: center;
@@ -71,13 +84,9 @@ nav a:hover {
     flex-grow: 1;
 }
 
-.logo-container {}
-
-.time-list-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.logchiedio {
+    width: 24em;
+    height: auto;
 }
 
 .contacts-container {
@@ -166,15 +175,19 @@ nav a:hover {
 
     .first-pizza {
         position: absolute;
-        top: 60%;
-        left: -30%;
+        top: 55%;
+        left: -35%;
         height: 30%;
+        width: auto;
+        max-height: 25%;
     }
 
     .second-pizza {
         position: absolute;
         height: 30%;
+        width: auto;
         right: -30%;
         top: 15%;
+        max-height: 25%;
     }
 }
