@@ -22,7 +22,6 @@ a {
     font-weight: bold;
     font-size: 25px;
     color: rgb(236, 194, 149);
-    text-shadow: 0 0 0px #000000, 0 0 5px #000000;
 }
 
 nav a:hover {
@@ -53,19 +52,17 @@ nav a:hover {
     top: 2em;
     font-weight: bold;
     margin: 0;
-    text-shadow: 0 0 0px #000000, 0 0 5px #000000;
 
 }
 
 .orari-container {
-    background-color: red;
     max-width: 600px;
     margin: auto;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     gap: 2em;
     flex-grow: 1;
 }
