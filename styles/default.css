@@ -7,13 +7,16 @@ body {
     margin: 0;
 }
 
+img {
+    filter: drop-shadow(0px 0px 10px rgb(0 0 0 / 0.4));
+}
+
 .page-container {
     position: relative;
     overflow: hidden;
     color: rgb(236, 194, 149);
     min-height: 100vh;
     margin: 0;
-    background-image: url('./../../images/backgrounds/legno.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,6 +42,14 @@ body {
 }
 
 .contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4em;
+    margin: 1em;
+}
+
+.contacts-container-mobile {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -143,7 +154,6 @@ a:hover {
         height: 32%;
         top: 50%;
         left: -12em;
-
     }
 
     .second-pizza {
