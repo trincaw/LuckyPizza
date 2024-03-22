@@ -5,7 +5,8 @@
   position: relative;
   width: 200px;
   height: 200px;
-  border: 5px solid rgb(55, 28, 7);
+
+  border: 5px solid var(--light_brown);
   border-radius: 50%;
   margin: 50px auto;
 }
@@ -16,7 +17,7 @@
   left: 50%;
   width: 1px;
   height: 40%;
-  background: rgb(55, 28, 7);
+  background: var(--light_brown);
   transform-origin: bottom;
 }
 
@@ -75,7 +76,7 @@
 
   .contenitore-clock h2 {
     font-size: 1rem;
-    color: rgb(236, 194, 149);
+    color: var(--light_brown);
   }
 }
 

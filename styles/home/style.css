@@ -2,7 +2,10 @@
     font-family: 'Mulish';
     src: url('./../../fonts/Mulish.ttf') format('truetype');
 }
-
+@font-face {
+    font-family: 'Boldena';
+    src: url('./../../fonts/BoldenaBoldPersonalUse.ttf') format('truetype');
+}
 body {
     margin: 0;
 
@@ -68,6 +71,7 @@ nav a:hover {
     position: absolute;
     left: 3em;
     top: 2em;
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 0;
     text-shadow: 0 0 0px #000000, 0 0 5px #000000;
@@ -82,6 +86,9 @@ nav a:hover {
     flex-direction: column;
     gap: 2em;
     flex-grow: 1;
+}
+.logo {
+    width: 40%;
 }
 
 .logchiedio {
@@ -107,6 +114,7 @@ nav a:hover {
     top: 20%;
     left: -18%;
     height: 70%;
+    max-height: 35%;
 }
 
 .second-pizza {
@@ -114,6 +122,7 @@ nav a:hover {
     height: 70%;
     right: -15%;
     top: -15%;
+    max-height: 35%;
 }
 
 /* Mobile Styles */
@@ -156,7 +165,7 @@ nav a:hover {
     }
 
     .logo {
-        width: 200px;
+        width: 100%;
     }
 
     .contacts-container {
