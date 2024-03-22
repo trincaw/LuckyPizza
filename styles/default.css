@@ -3,6 +3,11 @@
     src: url('./../../fonts/BoldenaBoldPersonalUse.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Mulish';
+    src: url('./../../fonts/Mulish.ttf') format('truetype');
+}
+
 body {
     margin: 0;
 }
@@ -21,7 +26,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Boldena', Arial, sans-serif;
+    font-family: 'Mulish', Arial, sans-serif;
 
     display: flex;
     flex-direction: column;
@@ -101,6 +106,13 @@ a:hover {
     max-height: 60%;
 }
 
+.iva {
+    position: absolute;
+    bottom: .5em;
+    right: 1.5em;
+    font-size: 1.6em;
+}
+
 @media only screen and (max-width: 1500px) {
 
     .first-pizza {
@@ -116,6 +128,22 @@ a:hover {
         width: auto;
         height: 45%;
         right: -10em;
+    }
+
+    .iva {
+        position: absolute;
+        bottom: 1.3em;
+        right: 1em;
+        font-size: 1.6em;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .iva {
+        position: static;
+        text-align: center;
+        margin-bottom: 1em;
+        font-size: 1.2em;
     }
 }
 
