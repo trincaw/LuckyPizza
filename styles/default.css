@@ -1,9 +1,4 @@
 @font-face {
-    font-family: 'Mulish';
-    src: url('./../../fonts/Mulish.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'Boldena';
     src: url('./../../fonts/BoldenaBoldPersonalUse.ttf') format('truetype');
 }
@@ -18,13 +13,12 @@ body {
     color: rgb(236, 194, 149);
     min-height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
     background-image: url('./../../images/backgrounds/legno.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Mulish', Arial, sans-serif;
+    font-family: 'Boldena', Arial, sans-serif;
 
     display: flex;
     flex-direction: column;
