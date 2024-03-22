@@ -2,16 +2,18 @@
     font-family: 'Mulish';
     src: url('./../../fonts/Mulish.ttf') format('truetype');
 }
+
 :root {
     --brown: #2A170D;
     --light_brown: rgb(236, 194, 149);
-  }
+}
+
 body {
     margin: 0;
     background-color: var(--brown);
 }
-    
-nav {   
+
+nav {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -57,6 +59,7 @@ nav a:hover {
     margin: 0;
 
 }
+
 .about-container {
     max-width: 50%;
     margin: auto;
@@ -68,6 +71,7 @@ nav a:hover {
     gap: 2em;
     flex-grow: 1;
     font-size: 1.2em;
+    z-index: 1;
 }
 
 
@@ -113,6 +117,10 @@ nav a:hover {
         position: static;
         text-align: center;
         margin-bottom: 1em;
+    }
+
+    .page-container {
+        height: auto;
     }
 
     nav {
@@ -163,7 +171,7 @@ nav a:hover {
         margin: 5px;
     }
 
-    .second-pizza  {
+    .second-pizza {
         position: absolute;
         top: 60%;
         left: -30%;

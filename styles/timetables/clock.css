@@ -1,5 +1,3 @@
-
-
 /* Orologio */
 .clock {
   position: relative;
@@ -8,7 +6,6 @@
 
   border: 5px solid var(--light_brown);
   border-radius: 50%;
-  margin: 50px auto;
 }
 
 .hand {
@@ -62,7 +59,7 @@
   to {
     transform: rotate(360deg);
   }
-} 
+}
 
 
 
@@ -81,15 +78,6 @@
 }
 
 @media (max-width: 376px) {
-
-
-  .clock {
-    width: 4rem;
-    /* Dimezzato da 8rem */
-    height: 4rem;
-    /* Dimezzato da 8rem */
-  }
-
 
   .contenitore-clock h2 {
     font-size: 0.75rem;

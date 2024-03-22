@@ -2,16 +2,18 @@
     font-family: 'Mulish';
     src: url('./../../fonts/Mulish.ttf') format('truetype');
 }
+
 :root {
     --brown: #2A170D;
     --light_brown: rgb(236, 194, 149);
-  }
+}
+
 body {
     margin: 0;
     background-color: var(--brown);
 }
-    
-nav {   
+
+nav {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -68,6 +70,7 @@ nav a:hover {
     flex-direction: row;
     gap: 2em;
     flex-grow: 1;
+    z-index: 2;
 }
 
 
@@ -89,8 +92,8 @@ nav a:hover {
 .contact-icon {
     width: 2em;
     height: 2em;
-    
-        }
+
+}
 
 
 .first-pizza {
@@ -114,6 +117,10 @@ nav a:hover {
         position: static;
         text-align: center;
         margin-bottom: 1em;
+    }
+
+    .orari-container {
+        flex-direction: column;
     }
 
     nav {
@@ -164,7 +171,7 @@ nav a:hover {
         margin: 5px;
     }
 
-    .second-pizza  {
+    .second-pizza {
         position: absolute;
         top: 60%;
         left: -30%;

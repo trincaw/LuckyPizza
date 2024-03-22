@@ -2,10 +2,12 @@
     font-family: 'Mulish';
     src: url('./../../fonts/Mulish.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'Boldena';
     src: url('./../../fonts/BoldenaBoldPersonalUse.ttf') format('truetype');
 }
+
 body {
     margin: 0;
 
@@ -42,7 +44,7 @@ a {
     font-size: 25px;
     color: rgb(236, 194, 149);
     text-shadow: 0 0 0px #000000, 0 0 5px #000000;
-
+    z-index: 2;
 }
 
 nav a:hover {
@@ -86,14 +88,11 @@ nav a:hover {
     flex-direction: column;
     gap: 2em;
     flex-grow: 1;
-}
-.logo {
-    width: 40%;
+    z-index: 1;
 }
 
-.logchiedio {
-    width: 24em;
-    height: auto;
+.logo {
+    width: 40%;
 }
 
 .contacts-container {
@@ -138,17 +137,19 @@ nav a:hover {
         display: block;
         text-align: center;
         padding: 2em;
+        z-index: 2;
     }
 
     nav a {
         padding: 10px 0px;
         margin: 0 10px;
         font-size: 18px;
+        z-index: 2;
         text-shadow: 0 0 0px #000000, 0 0 5px #000000;
-
     }
 
     nav h1 {
+        z-index: 2;
         text-shadow: 0 0 0px #000000, 0 0 5px #000000;
     }
 
@@ -165,7 +166,7 @@ nav a:hover {
     }
 
     .logo {
-        width: 100%;
+        width: 60%;
     }
 
     .contacts-container {
@@ -189,6 +190,8 @@ nav a:hover {
         height: 30%;
         width: auto;
         max-height: 25%;
+        z-index: 0;
+
     }
 
     .second-pizza {
@@ -198,5 +201,6 @@ nav a:hover {
         right: -30%;
         top: 15%;
         max-height: 25%;
+        z-index: 0;
     }
 }
