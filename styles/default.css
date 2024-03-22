@@ -108,7 +108,7 @@ a:hover {
 
 .iva {
     position: absolute;
-    bottom: .5em;
+    bottom: 1.2em;
     right: 1.5em;
     font-size: 1.6em;
 }
@@ -130,15 +130,6 @@ a:hover {
         right: -10em;
     }
 
-    .iva {
-        position: absolute;
-        bottom: 1.3em;
-        right: 1em;
-        font-size: 1.6em;
-    }
-}
-
-@media only screen and (max-width: 1400px) {
     .iva {
         position: static;
         text-align: center;
