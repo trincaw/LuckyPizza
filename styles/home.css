@@ -1,0 +1,24 @@
+.page-container {
+    background-image: url('./../../images/backgrounds/legno.webp');
+}
+
+.logo-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    flex-grow: 1;
+    z-index: 1;
+}
+
+.logo {
+    width: 40%;
+}
+
+@media only screen and (max-width: 900px) {
+    .logo {
+        width: 60%;
+    }
+}

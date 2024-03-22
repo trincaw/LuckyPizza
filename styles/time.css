@@ -1,0 +1,41 @@
+:root {
+    --brown: #2A170D;
+    --light_brown: rgb(236, 194, 149);
+}
+
+body {
+    background-color: var(--brown);
+}
+
+.page-container {
+    background-image: url('./../../images/backgrounds/shapes.png');
+}
+
+.orari-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8em;
+    flex-grow: 1;
+    z-index: 2;
+}
+
+
+.time-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .orari-container {
+        flex-direction: column;
+        gap: 2em;
+    }
+}

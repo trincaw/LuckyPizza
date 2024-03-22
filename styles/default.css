@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url('./../../fonts/Mulish.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Boldena';
+    src: url('./../../fonts/BoldenaBoldPersonalUse.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+}
+
+.page-container {
+    position: relative;
+    overflow: hidden;
+    color: rgb(236, 194, 149);
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./../../images/backgrounds/legno.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Mulish', Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container {
+    position: absolute;
+    left: 3em;
+    top: 2em;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 0 0 0px #000000, 0 0 5px #000000;
+}
+
+.title-container:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4em;
+    margin: 1em;
+}
+
+.contact-icon {
+    width: 2em;
+    height: 2em;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    padding: 3em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(236, 194, 149);
+    text-shadow: 0 0 0px #000000, 0 0 5px #000000;
+    z-index: 2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.first-pizza {
+    position: fixed;
+    top: 20%;
+    left: -10%;
+    height: 70%;
+    max-height: 60%;
+}
+
+.second-pizza {
+    position: fixed;
+    height: 70%;
+    right: -10%;
+    top: -10%;
+    max-height: 60%;
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .first-pizza {
+        width: auto;
+        height: 45%;
+        top: 50%;
+        left: -10em;
+
+    }
+
+    .second-pizza {
+        position: fixed;
+        width: auto;
+        height: 45%;
+        right: -10em;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    nav {
+        display: block;
+        text-align: center;
+        padding: 2em;
+    }
+
+    nav a {
+        padding: 10px 0px;
+        margin: 0 .5em;
+        font-size: 1.2em;
+        text-shadow: 0 0 0px #000000, 0 0 5px #000000;
+    }
+
+    .title-container {
+        position: static;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .contacts-container {
+        gap: 2em;
+    }
+
+    .contact-icon {
+        width: 1em;
+        height: 1em;
+        margin: .2em;
+    }
+
+    .first-pizza {
+        width: auto;
+        height: 32%;
+        top: 50%;
+        left: -12em;
+
+    }
+
+    .second-pizza {
+        width: auto;
+        height: 32%;
+        top: 10%;
+        right: -10em;
+    }
+}
