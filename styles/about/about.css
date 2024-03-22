@@ -2,32 +2,16 @@
     font-family: 'Mulish';
     src: url('./../../fonts/Mulish.ttf') format('truetype');
 }
-@font-face {
-    font-family: 'Boldena';
-    src: url('./../../fonts/BoldenaBoldPersonalUse.ttf') format('truetype');
-}
+:root {
+    --brown: #2A170D;
+    --light_brown: rgb(236, 194, 149);
+  }
 body {
     margin: 0;
-
+    background-color: var(--brown);
 }
-
-.flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5%;
-}
-
-.flex-container>a,
-.flex-container>h1 {
-    padding: 10px 20px;
-    margin: 0 10px;
-    text-align: center;
-    font-size: 20px;
-
-}
-
-nav {
+    
+nav {   
     text-align: center;
     display: flex;
     justify-content: center;
@@ -40,9 +24,7 @@ a {
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
-    color: rgb(236, 194, 149);
-    text-shadow: 0 0 0px #000000, 0 0 5px #000000;
-
+    color: var(--light_brown);
 }
 
 nav a:hover {
@@ -52,11 +34,11 @@ nav a:hover {
 .page-container {
     position: relative;
     overflow: hidden;
-    color: rgb(236, 194, 149);
+    color: var(--light_brown);
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('./../../images/backgrounds/legno.webp');
+    background-image: url('./../../images/backgrounds/shapes.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,14 +53,13 @@ nav a:hover {
     position: absolute;
     left: 3em;
     top: 2em;
-    font-family: 'Mulish', Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 0;
-    text-shadow: 0 0 0px #000000, 0 0 5px #000000;
 
 }
-
-.logo-container {
+.about-container {
+    max-width: 50%;
+    margin: auto;
     text-align: center;
     display: flex;
     align-items: center;
@@ -86,14 +67,15 @@ nav a:hover {
     flex-direction: column;
     gap: 2em;
     flex-grow: 1;
-}
-.logo {
-    width: 40%;
+    font-size: 1.2em;
 }
 
-.logchiedio {
-    width: 24em;
-    height: auto;
+
+.time-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .contacts-container {
@@ -109,20 +91,19 @@ nav a:hover {
     height: 2em;
 }
 
+
 .first-pizza {
     position: absolute;
     top: 20%;
-    left: -10%;
+    left: -18%;
     height: 70%;
-    max-height: 60%;
 }
 
 .second-pizza {
     position: absolute;
     height: 70%;
-    right: -10%;
-    top: -10%;
-    max-height: 60%;
+    right: -15%;
+    top: -15%;
 }
 
 /* Mobile Styles */
@@ -165,7 +146,7 @@ nav a:hover {
     }
 
     .logo {
-        width: 100%;
+        width: 200px;
     }
 
     .contacts-container {
@@ -182,21 +163,17 @@ nav a:hover {
         margin: 5px;
     }
 
-    .first-pizza {
+    .second-pizza  {
         position: absolute;
-        top: 55%;
-        left: -35%;
+        top: 60%;
+        left: -30%;
         height: 30%;
-        width: auto;
-        max-height: 25%;
     }
 
-    .second-pizza {
+    .first-pizza {
         position: absolute;
         height: 30%;
-        width: auto;
         right: -30%;
         top: 15%;
-        max-height: 25%;
     }
 }
