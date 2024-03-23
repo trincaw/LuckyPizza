@@ -1,0 +1,25 @@
+{
+    "name": "Lucky Pizza",
+    "short_name": "Lucky Pizza",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ff0000",
+    "icons": [
+        {
+            "src": "assets/svgs/ck_180x180.svg",
+            "sizes": "180x180",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "assets/svgs/ck_32x32.svg",
+            "sizes": "32x32",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "assets/svgs/ck_16x16.svg",
+            "sizes": "16x16",
+            "type": "image/svg+xml"
+        }
+    ]
+}
