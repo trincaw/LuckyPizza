@@ -92,17 +92,17 @@ a:hover {
 
 .first-pizza {
     position: fixed;
+    height: 60%;
     top: 20%;
     left: -10%;
-    height: 70%;
     max-height: 60%;
 }
 
 .second-pizza {
     position: fixed;
-    height: 70%;
-    right: -10%;
+    height: 60%;
     top: -10%;
+    right: -10%;
     max-height: 60%;
 }
 
@@ -171,14 +171,14 @@ a:hover {
 
     .first-pizza {
         width: auto;
-        height: 32%;
+        height: 30%;
         top: 50%;
         left: -12em;
     }
 
     .second-pizza {
         width: auto;
-        height: 32%;
+        height: 30%;
         top: 10%;
         right: -10em;
     }
