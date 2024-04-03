@@ -21,7 +21,17 @@
     text-decoration: none;
     text-shadow: none !important;
 
+
     font-size: 1.3rem;
+}
+
+.menu-link:hover {
+    background-color: rgb(202, 142, 77);
+    cursor: pointer;
+}
+
+.menu-link:active {
+    background-color: rgb(175, 95, 10);
 }
 
 .logo {
