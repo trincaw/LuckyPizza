@@ -1,5 +1,3 @@
 User-agent: *
 Disallow: /mock
-Disallow: /fonts
-Disallow: /images/backgrounds
  

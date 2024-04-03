@@ -6,12 +6,12 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://luckypizza.it/about.html</loc>
+        <loc>https://luckypizza.it/about-us.html</loc>
         <changefreq>yearly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://luckypizza.it/orari.html</loc>
+        <loc>https://luckypizza.it/time.html</loc>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
