@@ -13,6 +13,17 @@
     z-index: 1;
 }
 
+.menu-link {
+    color: #000;
+    background-color: rgb(236, 194, 149);
+    padding: 0.9rem 1.8rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    text-shadow: none !important;
+
+    font-size: 1.3rem;
+}
+
 .logo {
     width: 30em;
 }
@@ -20,5 +31,9 @@
 @media only screen and (max-width: 900px) {
     .logo {
         width: 60%;
+    }
+
+    .menu-link {
+        padding: 0.7rem 1.5rem;
     }
 }
